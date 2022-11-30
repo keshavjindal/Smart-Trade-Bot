@@ -1,0 +1,55 @@
+*{
+  margin :0 ;
+  padding : 0;
+  background-color: rgb(250, 249, 248);
+}
+
+.heading{
+  font: italic bolder 30px serif;
+  text-align: center;
+  margin: 25px;
+}
+
+.invent-container {
+  display: flex;
+  height : 10vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.invent-container h4{
+  font-size: 30px;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #b75555;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #bc4949;
+}
+
+.chart-container{
+  width: 80%;
+  margin : 15px auto;
+  overflow-x: scroll;
+  position: relative;
+}
+
+
+.profit{
+  color: green;
+}
+
+.loss{
+  color: red;
+}
